@@ -1,3 +1,7 @@
+library(survival)
+library(MAAS)
+library(fitdistrplus)
+
 find_origin_repartition <- function(va){
   va_norm <- fitdistr(va, "normal")
   #va_gamma <- fitdistr(va, "gamma")
