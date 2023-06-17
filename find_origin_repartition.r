@@ -1,3 +1,7 @@
+############## Problema 9.2
+#9.2. Găsiți o manieră de a identifica din ce repartiție au fost generate valorile de mai 
+#sus, cu identificarea parametrilor și justificarea alegerii făcute.
+
 # Importam pachetele de care avem nevoie pentru a rezolva problema
 library(survival)
 library(MAAS)
