@@ -13,7 +13,7 @@ metoda_mom_rep_normala <- function(x){			# Primim ca parametru vectorul ce repre
   sigma <- sd(x)								# Ii calculam deviatia standard
   miu <- mean(x)								# Ii calculam media
   
-  f_repartitie <- function(x){					#Exprimam functia de repartitie, presupunand ca provine dintr-o repartitie normala
+  f_repartitie <- function(x){					# Exprimam functia de repartitie, presupunand ca provine dintr-o repartitie normala
     x * exp(-((x - miu)^2) / 2 * sigma ^ 2) / sigma * sqrt(2 * pi)
   }
   curve(expr = f_repartitie, from = 0, to=30)	# Plotam functia de repartitie, pentru o vizualizare directa
